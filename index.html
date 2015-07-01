@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+  <title>Dynamic Charts</title>
+
+  <!-- Our Angular source files -->
+  <script src="bower_components/angular/angular.min.js"></script>
+
+  <!-- Our Angular module dependencies -->
+  <script src="bower_components/ng-websocket/ng-websocket.js"></script>
+  <script src="bower_components/angular-google-chart/ng-google-chart.js"></script>
+
+  <!-- Our Angular module and chart controller -->
+  <script src="js/app.js"></script>
+
+  <!-- CSS styling -->
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+</head>
+<!-- Here we use the ng-app directive to specify the module we want to run as our app -->
+<body ng-app="dynamicCharts">
+
+  <!-- This is our chart object -->
+  <div ng-controller="ChartCtrl">
+    <h1>Dynamic Charts using Angular.js, Google Charts and WebSockets</h1>
+    <div google-chart chart="chartObject" style=""></div>
+  </div>
+
+  <footer>
+    <p><a href="http://danielfitzgerald.co.uk">Tutorial by Daniel Fitzgerald - danielfitzgerald.co.uk</a></p>
+  </footer>
+
+</body>
+
+</html>

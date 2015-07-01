@@ -1,0 +1,30 @@
+{
+  "name": "dynamic_charts_tut",
+  "version": "0.0.1",
+  "authors": [
+    "Daniel Fitzgerald <daniel.fitzgerald@uk.ibm.com>"
+  ],
+  "description": "A tutorial to demonstrate how to visualize data from WebSockets using Google Charts and Angular.js",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "angular.js",
+    "angular",
+    "charts",
+    "iot"
+  ],
+  "license": "MIT",
+  "homepage": "danielfitzgerald.co.uk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "~1.3.2"
+  }
+}
